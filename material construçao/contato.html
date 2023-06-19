@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo da Loja">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="get" class="search-form">
+            <input type="text" name="q" placeholder="Pesquisar">
+            <input type="submit" value="Buscar">
+        </form>
+    </header>
+    <main>
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form action="" method="">
+                <label for="nome">Seu Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="email">Seu E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensagem">Sua Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br>
+                <input type="submit" value="Enviar Mensagem">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <h2>Formulário de Orçamento</h2>
+        <form action="/orcamento" method="post" class="orcamento-form">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="orcamento" placeholder="Descreva o que você precisa" required></textarea>
+            <input type="submit" value="Enviar Orçamento">
+        </form>
+    </footer>
+</body>
+</html>

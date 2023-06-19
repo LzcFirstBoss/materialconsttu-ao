@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo da Loja">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="get" class="search-form">
+            <input type="text" name="q" placeholder="Pesquisar">
+            <input type="submit" value="Buscar">
+        </form>
+    </header>
+    <main>
+        <section id="historia">
+            <h2>Nossa História</h2>
+            <p>No ano de 1985, uma dupla de irmãos, João e Maria, decidiu dar início a um sonho antigo: abrir uma loja de materiais de construção. O desejo surgiu da dificuldade que ambos tinham em encontrar bons materiais para as reformas de suas próprias casas. Percebendo essa lacuna no mercado, eles criaram a Silva Construções, focada na oferta de produtos de alta qualidade com um atendimento personalizado ao cliente.</p>
+
+            <p>A jornada inicial não foi fácil. Mesmo com a economia desafiadora e a concorrência acirrada, eles persistiram, sempre mantendo o foco no cliente e na qualidade dos produtos. Foram anos de muito trabalho, aprendizado e, sobretudo, de resiliência. As primeiras lojas foram estabelecidas na região central da cidade, sempre com uma seleção cuidadosa de materiais, desde os básicos até os mais sofisticados para acabamentos.</p>
+
+            <p>Com o passar dos anos, a Silva Construções ganhou reconhecimento na região e começou a expandir. Novas lojas foram inauguradas, mais funcionários foram contratados, e a variedade de produtos oferecidos aumentou significativamente. A pequena loja familiar se transformou em um negócio próspero, mas o compromisso com a qualidade e o atendimento personalizado permaneceram inalterados. Este compromisso tornou-se a marca registrada da empresa, contribuindo para o seu crescimento e sucesso.</p>
+
+            <p>Hoje, quase quarenta anos depois, a Silva Construções é uma referência em materiais de construção na região. Continuamos a nos esforçar para oferecer os melhores produtos, preços competitivos e um atendimento excepcional. Obrigado por fazer parte da nossa história, e estamos ansiosos para construir um futuro ainda melhor juntos.</p>
+        </section>
+
+        <section id="promocoes">
+            <h2>Confira nossas promoções!</h2>
+            <div class="promocao-container">
+                <div class="promocao">
+                    <a href="">
+                        <img src="imgs/cimento.jpg" alt="Promoção de Cimentos">
+                        <h3>Promoção de Cimentos!</h3>
+                        <p>Descontos de até 30% em todos os tipos de cimentos.</p>  
+                    </a>
+                </div>
+
+                <div class="promocao">
+                    <a href="">
+                        <img src="imgs/tinta.png" alt="Desconto em Tintas">
+                        <h3>Desconto em Tintas!</h3>
+                        <p>Compre duas latas de tinta e ganhe 50% de desconto na terceira.</p>                        
+                    </a>
+                </div>
+
+                <div class="promocao">
+                    <a href="">
+                        <img src="imgs/revestimento.png" alt="Oferta de Revestimentos">
+                        <h3>Oferta de Revestimentos!</h3>
+                        <p>Leve mais e pague menos em toda a linha de revestimentos cerâmicos.</p>                        
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <h2>Formulário de Orçamento</h2>
+        <form action="/orcamento" method="post" class="orcamento-form">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="orcamento" placeholder="Descreva o que você precisa" required></textarea>
+            <input type="submit" value="Enviar Orçamento">
+        </form>
+    </footer>
+</body>
+</html>

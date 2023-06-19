@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo da Loja">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="get" class="search-form">
+            <input type="text" name="q" placeholder="Pesquisar">
+            <input type="submit" value="Buscar">
+        </form>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A Silva Construções é mais do que uma simples loja de materiais de construção - somos uma família de apaixonados pela construção e reforma de lares. Fundada em 1985 por João e Maria Silva, a loja cresceu de um pequeno negócio familiar para uma das mais conhecidas e respeitadas lojas de materiais de construção da região.</p>
+
+            <p>Com uma variedade incrível de materiais e ferramentas, a Silva Construções tornou-se um verdadeiro paraíso para construtores, empreiteiros e donos de casa. Nossa equipe especializada está sempre pronta para ajudar e aconselhar sobre os melhores materiais para o seu projeto, seja ele grande ou pequeno. Valorizamos o bom atendimento, a qualidade dos produtos e a satisfação dos nossos clientes acima de tudo.</p>
+
+            <p>Além de nossa loja física, contamos com um amplo catálogo online e oferecemos entrega rápida e confiável para ajudar nossos clientes a ter o que precisam, quando precisam. Nosso compromisso é ajudá-lo a construir seus sonhos, fornecendo produtos de qualidade, preços competitivos e um atendimento excepcional.</p>
+
+            <h3>Onde nos encontrar</h3>
+            <p>Nosso principal estabelecimento está localizado na Avenida Principal, 123, no coração da cidade. Com estacionamento amplo e facilidade de acesso, somos um ponto de referência para todos os entusiastas da construção em nossa região.</p>
+
+            <p>Estamos abertos de segunda a sexta-feira, das 8h às 18h, e aos sábados, das 8h às 14h. Temos um café aconchegante onde você pode tomar um cafezinho enquanto decide sobre os materiais para o seu próximo projeto. Além disso, contamos com uma área infantil, onde seus pequenos podem brincar enquanto você faz suas compras.</p>
+
+            <p>Convidamos você a vir nos visitar, conhecer nossa loja, nossa equipe e descobrir por que a Silva Construções é a melhor opção para todos os seus projetos de construção. Estamos ansiosos para recebê-lo!</p><br><br>
+            <p>Bem-vindo à Silva Construções - a loja que ajuda a construir os seus sonhos. Estamos ansiosos para fazer parte do seu próximo projeto de construção ou reforma!</p>
+        </section>
+    </main>
+    <footer>
+        <h2>Formulário de Orçamento</h2>
+        <form action="/orcamento" method="post" class="orcamento-form">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="orcamento" placeholder="Descreva o que você precisa" required></textarea>
+            <input type="submit" value="Enviar Orçamento">
+        </form>
+    </footer>
+</body>
+</html>
